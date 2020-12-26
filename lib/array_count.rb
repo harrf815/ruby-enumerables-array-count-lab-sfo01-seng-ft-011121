@@ -4,7 +4,9 @@ def count_strings(array)
   array.count do |string|
     if string == String
       count += 1
+      count
     end
+    count
   end
   count
 end
