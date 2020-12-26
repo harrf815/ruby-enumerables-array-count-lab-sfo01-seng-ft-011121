@@ -5,8 +5,8 @@ def count_strings(array)
     if string == String
       count += 1
     end
-    count += 1 
   end
+  count
 end
 
 def count_empty_strings(array)
